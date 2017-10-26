@@ -5,14 +5,16 @@ package exeploreGame;
  * @author srb
  */
 public class MainFrame extends javax.swing.JFrame {
-
+	final private static int SIZE_W = 970;
+	final private static int SIZE_H = 690;
+	
     public MainFrame() {
         initComponents();
         myinit();
     }
     
     public final void myinit(){
-        setSize(970,690);
+        setSize(SIZE_W,SIZE_H);
         setResizable(false);
         gamePannel = new GamePannel();
 
